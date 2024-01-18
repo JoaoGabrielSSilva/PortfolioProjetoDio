@@ -9,11 +9,11 @@
       "hardSkills": [
         {
           "name": "Python",
-          "logo": ""
+          "logo": "https://raw.githubusercontent.com/JoaoGabrielSSilva/Portfolio/main/data/imgs/python.png"
         },
         {
           "name": "Javascript",
-          "logo": ""
+          "logo": "https://raw.githubusercontent.com/JoaoGabrielSSilva/Portfolio/main/data/imgs/js.png"
         }
         
       ],
