@@ -16,10 +16,13 @@ body{
     border: 1px solid ;
 }
 
+
+
 .header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .foto{
@@ -72,4 +75,36 @@ body{
 
 .informacoes .email::before{
     background-image: url('/assets/img/icons/email.svg');
+}
+
+
+@media screen and (min-width: 768px) {
+    .header{
+        display: grid;
+        grid-template-areas: 
+            "foto titulo" 
+            "foto informacoes"
+        ;
+    }
+    
+    .header .foto{
+        grid-area: foto;
+        margin: 0 auto;
+    }
+
+    .header .titulo{
+        grid-area: titulo;
+        text-align: start;
+        max-width: 210px;
+    }
+
+    .header .informacoes{
+        grid-area: informacoes;   
+    }
+
+
+    .main{
+        max-width: 1024px;
+        margin: 1rem auto;
+    }
 }
