@@ -1,0 +1,47 @@
+{
+    "name": "João Gabriel Souza Silva",
+    "photo": "https://avatars.githubusercontent.com/u/90883086?v=4",
+    "job": "Estagiário da Agência Nacional de Águas (ANA)",
+    "location": "Brasília - DF",
+    "phone": "(61) 985821093",
+    "email": "joaogabrielsouzasilva42@gmail.com",
+    "skills": {
+      "hardSkills": [
+        {
+          "name": "Python",
+          "logo": ""
+        },
+        {
+          "name": "Javascript",
+          "logo": ""
+        }
+        
+      ],
+      "softSkills": [
+        "Empatia",
+        "Liderança",
+        "Trabalho em equipe",
+        "Flexibilidade",
+        "Organização"
+      ]
+    },
+    "languages": [
+      "Português",
+      "Inglês (Avançado)",
+      "Espanhol (intermediário)"
+    ],
+    "portfolio": [
+
+      {
+        "name": "Projeto exemplo",
+        "url": "link",
+        "github": true
+      }
+    ],
+    "professionalExperience": [
+      {
+        "name": "Estagiário da Agência Nacional de Águas",
+        "period": "2023 - até o momento",
+        "description": "Estágio em Segurança da Informação"
+      }
+  }

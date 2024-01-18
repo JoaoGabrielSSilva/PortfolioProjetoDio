@@ -9,26 +9,97 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-
-
     <title>Portfólio João Gabriel</title>
 </head>
+
 <body>
-    <div class="main">
-        <header>
-            <img src="assets/img/foto.jpg" alt="" class="foto">
+    <main class="main">
+        <header class="header">
+            <img src="assets/img/foto.jpg" alt="foto de perfil" class="foto" id="profile.photo">
     
-            <h1 class="titulo">Olá, <br>eu sou João Gabriel</h1>
+            <h1 class="titulo">
+                Olá, <br>eu sou <span id="profile.name">Carregando...</span>
+            </h1>
     
-            <div class="informacoes">
-                <p class="cargo">Estagiário</p>
-                <p class="localizacao">Brasília - BR</p>
-                <p class="contato">(61) 9 8582-1093</p>
-                <p class="email">joaogabrielsouzasilva42@gmail.com</p>
+            <div class="information">
+                <p class="job" id="profile.job">Carregando...</p>
+                <p class="localizacao" id="profile.location">Carregando...</p>
+                <p class="phone">
+                    <a href="tel:(61) 9 8582-1093" id="profile.phone">Carregando...</a>
+                </p>
+                <p class="email">
+                    <a href="mailto:joaogabrielsouzasilva42@gmail.com" id="profile.email">carregando@mail.com</a>
+                </p>
             </div>
-            
         </header>
-    </div>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Habilidades</h2>
+            </button>
+
+            <div class="content">
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Ferramentas:</h3>
+                        <ul id="profile.skills.hardSkills"></ul>
+                    </section>
+
+                    <section class="personal">
+                        <h3>Pessoal:</h3>
+                        <ul id="profile.skills.softSkills">
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Idiomas</h2>
+            </button>
+
+            <div class="content">
+                <ul class="languages" id="profile.languages">
+                    <li>Carregando...</li>
+                </ul>
+            </div>
+        </section>
+
+       <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Portfólio</h2>
+            </button>
+
+            <div class="content">
+                <ul class="portfolio" id="profile.portfolio">
+
+                </ul>
+            </div>
+       </section>
+
+       
+
+       <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Experiência Profissional</h2>
+            </button>
+
+            <div class="content">
+                <ul class="experience" id="profile.professionalExperience">
+
+                </ul>
+            </div>
+       </section>
+
+    </main>
+
+    <script src="assets/js/acordeon.js"></script>
+    <script src="assets/js/api.js"></script>
+    <script src="assets/js/main.js"></script>
     
 </body>
 </html>
